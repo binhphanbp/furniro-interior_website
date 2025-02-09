@@ -1,0 +1,33 @@
+img {
+  max-width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: block;
+  outline: 0;
+  object-fit: contain;
+}
+
+img .--center {
+  margin: 0 auto;
+  display: block;
+}
+
+.--hidden {
+  display: none;
+}
+
+/* Variable */
+
+/* Heading */
+
+/* Textbox */
+
+/* Button */
+.btn {
+  height: 64px;
+  padding: 0 32px;
+  background-color: var(--primary-cl);
+  color: var(--white-cl);
+}

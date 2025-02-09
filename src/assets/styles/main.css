@@ -1,0 +1,24 @@
+/* Reset CSS */
+@import './base/reset.css';
+
+/* Font */
+@import './base/variables.css';
+@import './base/fonts.css';
+
+/* Layouts (General Structure) */
+@import './base/layouts.css';
+
+/* Components */
+@import './components/header.css';
+@import './components/footer.css';
+@import './components/components.css';
+
+/* Pages */
+@import './pages/home.css';
+@import './pages/shop.css';
+@import './pages/shop-details.css';
+@import './pages/cart.css';
+@import './pages/checkout.css';
+@import './pages/product-comparison.css';
+@import './pages/blog.css';
+@import './pages/contact.css';

@@ -20,6 +20,35 @@ img .--center {
 
 /* Variable */
 
+/* Progress Bar */
+.progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: #ddd;
+}
+
+.progress-bar {
+  height: 100%;
+  background: var(--main-cl);
+  width: 0%;
+
+  /* Scroll-driven animation */
+  animation: grow linear;
+  animation-timeline: scroll();
+}
+
+@keyframes grow {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 /* Heading */
 
 /* Textbox */

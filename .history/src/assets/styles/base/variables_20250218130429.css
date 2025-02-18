@@ -1,0 +1,49 @@
+:root {
+  /* Page Setting Variables */
+  --max-width-page: 2560px;
+  --max-width-container-fluid: 1920px;
+  --max-width-container: calc(1236px + calc(var(--gap) * 2));
+
+  --gap: 30px;
+
+  /* Color Variables */
+  --primary-cl: #b88e2f;
+  --secondary-cl: #fff3e3;
+  --tertiary-cl: #f3e9dc;
+
+  --white-page-cl: #f9f6ee;
+  --black-cl: #0b1215;
+
+  --gray-dark-cl: #898989;
+  --gray-light-cl: #9f9f9f;
+  --product-hover: #3a3a3a;
+
+  --red-cl: #e97171;
+  --green-cl: #2ec1ac;
+  --purple-cl: #816dfa;
+
+  /* Font-size, Line-height, Letter-spacing Variables: */
+  --fs-h1: 5.6rem;
+  --lh-h1: normal;
+  --ls-h1: 10.08px;
+
+  --fs-h2: 6.4rem;
+  --lh-h2: normal;
+  --ls-h2: 10.08px;
+
+  --fs-h3: 6.4rem;
+  --lh-h3: normal;
+  --ls-h3: 10.08px;
+
+  /* General Variables */
+  --height-header: 100px;
+  --height-footer: 505px;
+  --height-button-large: 74px;
+  --height-button-medium: 64px;
+  --height-button-small: 48px;
+  --pd-section: 60px;
+
+  /* Timing Transition Variables: */
+  --duration: 0.4s;
+  --cubic: cubic-bezier(0.59, 0.29, 0.15, 0.93);
+}

@@ -18,6 +18,8 @@ img .--center {
   display: none;
 }
 
+/* Variable */
+
 /* Progress Bar */
 .progress-container {
   position: fixed;
@@ -167,3 +169,5 @@ img .--center {
   background-color: var(--primary-cl);
   color: var(--white-page-cl);
 }
+
+/* Button Social */

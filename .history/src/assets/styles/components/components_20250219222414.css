@@ -18,6 +18,8 @@ img .--center {
   display: none;
 }
 
+/* Variable */
+
 /* Progress Bar */
 .progress-container {
   position: fixed;
@@ -75,23 +77,15 @@ img .--center {
   color: var(--gray-light-cl);
 }
 
+/* Textbox */
 .textbutton {
   font-family: var(--font-body-semibold);
   font-size: var(--fs-text-button);
   line-height: var(--lh-text-button);
   letter-spacing: var(--ls-text-button);
 }
-/* Textbox */
-.textbox .--align-center {
-  text-align: center;
-}
 
-.textbox .desc {
-  margin-top: 10px;
-  color: var(--gray-dark-cl);
-}
-
-/* BUTTON */
+/* Button */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -113,20 +107,11 @@ img .--center {
   -ms-transition: var(--duration);
   -o-transition: var(--duration);
 }
-.btn:hover {
-  border: var(--white-page-cl) solid 1px;
-  background-color: var(--primary-cl);
-  color: var(--primary-cl);
-}
 
 .btn .--large {
   height: var(--height-button-large);
   padding: 0 72px;
-
-  font-family: var(--font-body-bold);
-  text-transform: uppercase;
 }
-
 .btn .--stroke {
   height: 48px;
   padding: 0 78px;
@@ -134,36 +119,9 @@ img .--center {
   color: var(--primary-cl);
   stroke: 1px solid var(--primary-cl);
 }
-.btn .--stroke:hover {
-  background-color: var(--primary-cl);
-  color: var(--white-page-cl);
-}
-
 .btn .--stroke-black {
   height: 48px;
   padding: 0 48px;
   background-color: transparent;
-  color: var(--black-cl);
   stroke: 1px solid var(--black-cl);
-}
-.btn .--stroke-black:hover {
-  background-color: var(--black-cl);
-  color: var(--white-page-cl);
-}
-
-/* Button Pagination */
-.btn-pagination {
-  height: 60px;
-  padding: 0 27px;
-
-  background-color: var(--secondary-cl);
-  color: var(--black-cl);
-}
-.btn-pagination:hover {
-  background-color: var(--primary-cl-hover);
-  color: var(--white-page-cl);
-}
-.btn-pagination .--active {
-  background-color: var(--primary-cl);
-  color: var(--white-page-cl);
 }

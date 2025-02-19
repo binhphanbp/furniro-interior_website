@@ -18,6 +18,8 @@ img .--center {
   display: none;
 }
 
+/* Variable */
+
 /* Progress Bar */
 .progress-container {
   position: fixed;
@@ -86,9 +88,12 @@ img .--center {
   text-align: center;
 }
 
-.textbox .desc {
+.desc {
   margin-top: 10px;
-  color: var(--gray-dark-cl);
+  color: var(--gray-cl);
+  &.--white-cl {
+    color: var(--white-cl);
+  }
 }
 
 /* BUTTON */

@@ -18,6 +18,8 @@ img .--center {
   display: none;
 }
 
+/* Variable */
+
 /* Progress Bar */
 .progress-container {
   position: fixed;
@@ -82,13 +84,18 @@ img .--center {
   letter-spacing: var(--ls-text-button);
 }
 /* Textbox */
-.textbox .--align-center {
-  text-align: center;
-}
+.textbox {
+  &.--align-center {
+    text-align: center;
+  }
 
-.textbox .desc {
-  margin-top: 10px;
-  color: var(--gray-dark-cl);
+  .desc {
+    margin-top: 10px;
+    color: var(--gray-cl);
+    &.--white-cl {
+      color: var(--white-cl);
+    }
+  }
 }
 
 /* BUTTON */

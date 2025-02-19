@@ -5,6 +5,7 @@
   width: 100%;
   max-width: var(--max-width-page);
   height: var(--height-header);
+  background-color: var(--secondary-cl);
 }
 
 .header .container {

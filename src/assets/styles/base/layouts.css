@@ -71,12 +71,12 @@ body {
   margin-top: var(--height-header);
 }
 
-section .ptb {
+section.--ptb {
   padding: var(--pd-section) 0;
 }
-section .pt {
+section.--pt {
   padding: var(--pd-section);
 }
-section .pb {
+section.--pb {
   padding: var(--pd-section);
 }

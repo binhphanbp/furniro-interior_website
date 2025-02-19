@@ -1,3 +1,4 @@
+/* SECTION HERO */
 .schero {
   height: calc(100vh - var(--height-header));
   max-height: 980px;
@@ -34,4 +35,36 @@
 .schero__discover .textbox .desc {
   color: var(--black-cl);
   margin-bottom: 46px;
+}
+
+/* SECTION INSPIRATION */
+.scinspiration .textbox .desc {
+  font-family: var(--font-body);
+  font-size: 20px;
+}
+
+.scinspiration__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+
+.scinspiration__list-item:first-child .thumb {
+  border-top-left-radius: 100px;
+}
+.scinspiration__list-item:last-child .thumb {
+  border-bottom-right-radius: 100px;
+}
+.scinspiration__list-item:nth-child(2) .thumb {
+  margin-top: -28px;
+}
+
+.scinspiration__list-item .heading {
+  margin-top: 26px;
+  text-align: center;
+  font-family: var(--font-body-semibold);
+}
+.scinspiration__list-item:nth-child(2) .heading {
+  margin-top: 56px;
 }

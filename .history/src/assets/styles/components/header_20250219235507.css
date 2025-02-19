@@ -1,5 +1,5 @@
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   z-index: 3;
   width: 100%;
@@ -73,30 +73,21 @@
   gap: 45px;
 }
 
-.header .header__icons .header__icons-item {
-  align-self: center;
-}
-
 .header__icons-searchbar {
   display: flex;
   align-items: center;
-
-  background-color: var(--tertiary-cl);
-  border: 2px solid var(--primary-cl);
-  border-radius: 100px;
-  padding: 3px 11px 0px 11px;
-  width: 252px;
-  height: 40px;
-
-  transition: var(--duration);
-  -webkit-transition: var(--duration);
-  -moz-transition: var(--duration);
-  -ms-transition: var(--duration);
-  -o-transition: var(--duration);
+  background-color: #f5ede1; /* Màu nền */
+  border: 2px solid #b2893c; /* Viền vàng */
+  border-radius: 30px; /* Bo tròn góc */
+  padding: 8px 16px;
+  width: 180px; /* Chiều rộng */
+  transition: all 0.3s ease-in-out;
 }
 
 .header__icons-searchbar img {
-  margin-right: 16px;
+  width: 20px; /* Kích thước icon */
+  height: 20px;
+  margin-right: 8px;
   cursor: pointer;
 }
 
@@ -104,14 +95,11 @@
   border: none;
   outline: none;
   background: transparent;
-  font-size: 20px;
+  font-size: 16px;
+  color: #777;
   width: 100%;
-  margin-top: -1px; /* Để kéo input lên 1 chút (Căn giữa)*/
-}
-.header__icons-searchbar input::placeholder {
-  color: var(--black-cl);
 }
 
 .header__icons-searchbar:focus-within {
-  border-color: var(--primary-cl-hover);
+  border-color: #8b6a2f; /* Viền khi focus */
 }

@@ -66,10 +66,9 @@ body {
   position: relative;
 }
 
-.main {
+/* .main {
   position: relative;
-  margin-top: var(--height-header);
-}
+} */
 
 section .ptb {
   padding: var(--pd-section) 0;

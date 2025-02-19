@@ -68,7 +68,6 @@ body {
 
 .main {
   position: relative;
-  margin-top: var(--height-header);
 }
 
 section .ptb {

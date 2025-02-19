@@ -71,10 +71,10 @@ img .--center {
   letter-spacing: var(--ls-h3);
 }
 .heading .--yellow-cl {
-  color: var(--black-cl);
+  color: var(--main-cl);
 }
 .heading .--white-cl {
-  color: var(--gray-light-cl);
+  color: var(--white-cl);
 }
 
 /* Textbox */

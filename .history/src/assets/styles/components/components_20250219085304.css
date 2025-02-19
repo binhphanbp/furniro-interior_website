@@ -70,11 +70,11 @@ img .--center {
   line-height: var(--lh-h3);
   letter-spacing: var(--ls-h3);
 }
-.heading .--yellow-cl {
-  color: var(--black-cl);
+&.--yellow-cl {
+  color: var(--main-cl);
 }
-.heading .--white-cl {
-  color: var(--gray-light-cl);
+&.--white-cl {
+  color: var(--white-cl);
 }
 
 /* Textbox */

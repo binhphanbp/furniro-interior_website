@@ -10,20 +10,20 @@ html {
   }
   /* Track */
   ::-webkit-scrollbar-track {
-    background: var(--gray-light-cl);
+    background: var(--blue-cl);
   }
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: var(--primary-cl);
+    background: var(--yellow-cl);
     border-radius: 40px;
   }
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--gray-dark-cl);
+    background: var(--blue-cl);
   }
 }
 
-body {
+html body {
   background-color: var(--white-page-cl);
   color: var(--black-cl);
 }

@@ -23,7 +23,7 @@ html {
   }
 }
 
-body {
+html body {
   background-color: var(--white-page-cl);
   color: var(--black-cl);
 }

@@ -1,0 +1,7 @@
+body {
+  background-color: var(--white-page-cl);
+}
+
+.container {
+  max-width: var();
+}

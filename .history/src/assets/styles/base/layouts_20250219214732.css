@@ -19,11 +19,11 @@ html {
   }
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--gray-dark-cl);
+    background: var(--gray-light-cl);
   }
 }
 
-body {
+html body {
   background-color: var(--white-page-cl);
   color: var(--black-cl);
 }

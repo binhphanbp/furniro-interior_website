@@ -9,25 +9,12 @@
   height: 100%;
 }
 
-.header .header__menu {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-
 /* Header Menu */
 .header .header__menu .header__menu-list {
   display: flex;
 }
 
-.header .header__menu .header__menu-list li a {
-  padding: 8px var(--pd-left-right);
-  text-transform: capitalize;
-  font-size: 2rem;
-}
-
 /* Header Icons */
 .header .header__icons {
   display: flex;
-  gap: 45px;
 }

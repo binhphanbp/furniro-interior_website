@@ -1,0 +1,11 @@
+.header {
+}
+
+.header .container {
+  display: flex;
+}
+
+/* Header Icons */
+.header .header__icons {
+  display: flex;
+}

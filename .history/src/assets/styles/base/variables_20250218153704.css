@@ -5,7 +5,6 @@
   --max-width-container: calc(1236px + calc(var(--gap) * 2));
 
   --gap: 30px;
-  --pd-left-right: 20px;
 
   /* Color Variables */
   --primary-cl: #b88e2f;
@@ -39,10 +38,6 @@
   --fs-text-button: 1.6rem;
   --lh-text-button: 2.4rem;
   --ls-text-button: 0.2px;
-
-  --fs-body: 1.6rem;
-  --lh-body: 2.4rem;
-  --ls-body: 0.2px;
 
   /* Fonts: */
   --font-body: ppr;

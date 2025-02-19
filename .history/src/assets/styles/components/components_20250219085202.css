@@ -55,26 +55,26 @@ img .--center {
   color: var(--black-cl);
   text-transform: uppercase;
 }
-.heading .--h1 {
+&.--h1 {
   font-size: var(--fs-h1);
   line-height: var(--lh-h1);
   letter-spacing: var(--ls-h1);
 }
-.heading .--h2 {
+&.--h2 {
   font-size: var(--fs-h2);
   line-height: var(--lh-h2);
   letter-spacing: var(--ls-h2);
 }
-.heading .--h3 {
+&.--h3 {
   font-size: var(--fs-h3);
   line-height: var(--lh-h3);
   letter-spacing: var(--ls-h3);
 }
-.heading .--yellow-cl {
-  color: var(--black-cl);
+&.--yellow-cl {
+  color: var(--main-cl);
 }
-.heading .--white-cl {
-  color: var(--gray-light-cl);
+&.--white-cl {
+  color: var(--white-cl);
 }
 
 /* Textbox */

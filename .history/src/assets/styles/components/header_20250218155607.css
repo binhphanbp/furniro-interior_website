@@ -1,0 +1,13 @@
+.header {
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Header Icons */
+.header .header__icons {
+  display: flex;
+}

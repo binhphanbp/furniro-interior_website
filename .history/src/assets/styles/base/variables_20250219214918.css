@@ -12,7 +12,7 @@
   --secondary-cl: #fff3e3;
   --tertiary-cl: #f3e9dc;
 
-  --white-page-cl: #f9f6ee;
+  --white-page-cl: #ad8107;
   --black-cl: #0b1215;
 
   --gray-dark-cl: #898989;
@@ -39,10 +39,6 @@
   --fs-text-button: 1.6rem;
   --lh-text-button: 2.4rem;
   --ls-text-button: 0.2px;
-
-  --fs-body: 1.6rem;
-  --lh-body: 2.4rem;
-  --ls-body: 0.2px;
 
   /* Fonts: */
   --font-body: ppr;

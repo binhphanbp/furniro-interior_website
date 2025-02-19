@@ -73,9 +73,9 @@ body {
 section .ptb {
   padding: var(--pd-section) 0;
 }
-section .pt {
-  padding: var(--pd-section);
+section .ptb {
+  padding: var(--pd-section) 0;
 }
-section .pb {
-  padding: var(--pd-section);
+section .ptb {
+  padding: var(--pd-section) 0;
 }

@@ -57,25 +57,6 @@ body {
 }
 
 .container {
-  width: 100%;
   max-width: var(--max-width-container);
-  padding-right: var(--gap);
-  padding-left: var(--gap);
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-}
-
-.main {
-  position: relative;
-}
-
-section .ptb {
-  padding: var(--pd-section) 0;
-}
-section .pt {
-  padding: var(--pd-section);
-}
-section .pb {
-  padding: var(--pd-section);
+  margin: 0 auto;
 }

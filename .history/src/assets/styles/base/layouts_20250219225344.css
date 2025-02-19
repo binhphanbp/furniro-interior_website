@@ -39,43 +39,14 @@ body {
   max-width: var(--max-width-page);
   margin: auto;
 
-  color: var(--black-cl);
   font-family: var(--font-body);
   font-size: var(--fs-body);
   line-height: var(--lh-body);
   letter-spacing: var(--ls-body);
-}
-
-.container-fluid {
-  width: 100%;
-  max-width: var(--max-width-container-fluid);
-  padding-right: var(--gap);
-  padding-left: var(--gap);
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
+  color: var(--black-cl);
 }
 
 .container {
-  width: 100%;
   max-width: var(--max-width-container);
-  padding-right: var(--gap);
-  padding-left: var(--gap);
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-}
-
-.main {
-  position: relative;
-}
-
-section .ptb {
-  padding: var(--pd-section) 0;
-}
-section .pt {
-  padding: var(--pd-section);
-}
-section .pb {
-  padding: var(--pd-section);
+  margin: 0 auto;
 }

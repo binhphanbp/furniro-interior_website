@@ -56,12 +56,12 @@ img .--center {
 .heading {
   font-family: var(--font-body-bold);
   color: var(--black-cl);
-  text-transform: uppercase;
 }
 .heading.--h1 {
   font-size: var(--fs-h1);
   line-height: var(--lh-h1);
   letter-spacing: var(--ls-h1);
+  color: var(--primary-cl);
 }
 .heading.--h2 {
   font-size: var(--fs-h2);
@@ -91,9 +91,10 @@ img .--center {
   text-align: center;
 }
 
-.textbox.desc {
+.textbox .desc {
   margin-top: 10px;
   color: var(--gray-dark-cl);
+  font-family: var(--font-body-medium);
 }
 
 /* BUTTON */

@@ -1,0 +1,37 @@
+.schero {
+  height: calc(100vh - var(--height-header));
+  max-height: 980px;
+  min-height: 640px;
+  overflow: hidden;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.schero .container {
+  position: relative;
+}
+
+.schero__discover {
+  width: 643px;
+  height: 443px;
+  padding: 62px 40px 37px 43px;
+  background-color: var(--secondary-cl);
+  border-radius: 10px;
+
+  margin: 196px 0px auto auto;
+  /* position: absolute; */
+  /* right: 10px;
+  bottom: 116px; */
+}
+
+.schero__discover .schero__discover-title {
+  font-family: var(--font-body-semibold);
+  letter-spacing: 3px;
+  margin-bottom: 4px;
+}
+
+.schero__discover .textbox .desc {
+  color: var(--black-cl);
+  margin-bottom: 46px;
+}

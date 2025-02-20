@@ -6,6 +6,11 @@
   max-width: var(--max-width-page);
   height: var(--height-header);
   background-color: var(--secondary-cl);
+
+  -webkit-box-shadow: 0px 10px 20px -6px rgba(184, 142, 47, 0.75);
+  -moz-box-shadow: 0px 10px 20px -6px rgba(184, 142, 47, 0.75);
+  box-shadow: 0px 10px 20px -6px rgba(184, 142, 47, 0.75);
+  color: var(#b88e2f);
 }
 
 .header .container {

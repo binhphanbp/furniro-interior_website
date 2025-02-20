@@ -1,0 +1,94 @@
+.footer {
+  padding-top: 48px;
+  border-top: 1px solid var(--gray-light-cl);
+}
+
+.footer .footer__top {
+  padding-bottom: 48px;
+  border-bottom: 1px solid var(--gray-light-cl);
+}
+
+.footer .footer__top {
+  display: flex;
+  align-items: flex-start;
+  gap: 116px;
+}
+
+.footer .footer__top .submenu .submenu__title {
+  text-transform: capitalize;
+  margin-bottom: 55px;
+  padding-left: 20px;
+  color: var(--gray-light-cl);
+}
+
+.footer .footer__top .submenu.--subscribe {
+  flex-grow: 1;
+}
+
+.footer .footer__top .submenu.--subscribe .submenu__form {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 16px 20px;
+}
+
+.footer .footer__top .submenu.--subscribe input {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  width: 200px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--black-cl);
+}
+.footer .footer__top .submenu.--subscribe input::placeholder {
+  color: var(--gray-light-cl);
+}
+
+.footer .footer__top .submenu.--subscribe button {
+  font-size: 1.4rem;
+  font-family: var(--font-body-medium);
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--black-cl);
+
+  transition: var(--duration);
+  -webkit-transition: var(--duration);
+  -moz-transition: var(--duration);
+  -ms-transition: var(--duration);
+  -o-transition: var(--duration);
+}
+.footer .footer__top .submenu.--subscribe button:hover {
+  color: var(--primary-cl);
+  border-bottom-color: var(--primary-cl);
+}
+
+.footer .footer__top .submenu ul li a {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  text-transform: capitalize;
+  font-family: var(--font-body-medium);
+  padding: 16px 20px;
+  color: var(--black-cl);
+
+  transition: var(--duration);
+  -webkit-transition: var(--duration);
+  -moz-transition: var(--duration);
+  -ms-transition: var(--duration);
+  -o-transition: var(--duration);
+}
+.footer .footer__top .submenu ul li a:hover {
+  color: var(--primary-cl);
+}
+
+.footer .footer__top .footer__top-info .info {
+  color: var(--gray-light-cl);
+  margin-top: 45px;
+}
+
+.footer .footer__copy-right {
+  padding: 35px 0px 38px;
+}

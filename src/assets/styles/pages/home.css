@@ -37,10 +37,6 @@
   margin-bottom: 46px;
 }
 
-.schero__discover .textbox .btn {
-  text-transform: uppercase;
-}
-
 /* SECTION INSPIRATION */
 .scinspiration .textbox .desc {
   font-family: var(--font-body);

@@ -125,12 +125,18 @@ img .--center {
   color: var(--primary-cl);
 }
 
-.btn .--large {
+.btn.--large {
   height: var(--height-button-large);
   padding: 0 72px;
 
   font-family: var(--font-body-bold);
   text-transform: uppercase;
+}
+.btn.--large:hover {
+  border-color: var(--primary-cl);
+  background-color: transparent;
+
+  /* stroke: 1px solid var(--primary-cl); */
 }
 
 .btn.--stroke {

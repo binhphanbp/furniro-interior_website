@@ -37,6 +37,10 @@
   margin-bottom: 46px;
 }
 
+.schero__discover .textbox .btn {
+  text-transform: uppercase;
+}
+
 /* SECTION INSPIRATION */
 .scinspiration .textbox .desc {
   font-family: var(--font-body);
@@ -67,4 +71,35 @@
 }
 .scinspiration__list-item:nth-child(2) .heading {
   margin-top: 56px;
+}
+
+/* SECTION PRODUCTS */
+.scproducts .scproducts-list {
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+
+  margin-top: 32px;
+}
+
+.scproducts .scproducts-list .product .thumb {
+  width: 100%;
+  aspect-ratio: 285/301;
+  overflow: hidden;
+  display: block;
+  overflow: hidden;
+}
+
+.scproducts .scproducts-list .product .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scproducts .btn {
+  display: flex;
+  width: fit-content;
+  margin: 32px auto 0px auto;
 }

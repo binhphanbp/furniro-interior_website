@@ -53,12 +53,12 @@
   --font-body-bold: ppb;
 
   /* General Variables */
-  --height-header: 80px;
+  --height-header: 70px;
   --height-footer: 505px;
   --height-button: 48px;
   --height-button-medium: 64px;
   --height-button-large: 74px;
-  --pd-section: 40px;
+  --pd-section: 60px;
 
   /* Timing Transition Variables: */
   --duration: 0.4s;

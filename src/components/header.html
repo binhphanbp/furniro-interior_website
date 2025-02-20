@@ -5,5 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Header</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__menu">
+          <a class="header__logo" href="#">
+            <img src="./icons/furniro-logo-type.svg" alt="logo-furniro" />
+          </a>
+          <ul class="header__menu-list">
+            <li>
+              <a href="#" class="--active">home</a>
+            </li>
+            <li>
+              <a href="./src/pages/shop.html">shop</a>
+            </li>
+            <li>
+              <a href="./src/pages/blog.html">blog</a>
+            </li>
+            <li>
+              <a href="./src/pages/contact.html">contact</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header__icons">
+          <li class="header__icons-searchbar">
+            <label for="search-input">
+              <img src="./icons/icon-search.svg" alt="icon-search" />
+            </label>
+            <input type="text" id="search-input" placeholder="Search" />
+          </li>
+          <li class="header__icons-item">
+            <a href="#">
+              <img src="./icons/icon-heart.svg" alt="icon-heart" />
+            </a>
+          </li>
+          <li class="header__icons-item">
+            <a href="./src/pages/cart.html">
+              <img src="./icons/icon-cart.svg" alt="icon-cart"
+            /></a>
+          </li>
+          <li class="header__icons-item">
+            <a href="#">
+              <img src="./icons/icon-account-alert.svg" alt="icon-account" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+  </body>
 </html>

@@ -83,6 +83,18 @@
   align-self: center;
 }
 
+.header .header__icons .header__icons-item a svg path {
+  transition: var(--duration);
+  -webkit-transition: var(--duration);
+  -moz-transition: var(--duration);
+  -ms-transition: var(--duration);
+  -o-transition: var(--duration);
+}
+.header .header__icons .header__icons-item:hover a svg path {
+  stroke: var(--primary-cl);
+  fill: var(--primary-cl);
+}
+
 .header__icons-searchbar {
   display: flex;
   align-items: center;

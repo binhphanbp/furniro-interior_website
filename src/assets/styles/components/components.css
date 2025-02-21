@@ -108,7 +108,7 @@ img .--center {
 
   height: var(--height-button);
   font-family: var(--font-body-semibold);
-  border: var(--primary-cl) solid 1px;
+  border: 1px solid transparent;
   background-color: var(--primary-cl);
   color: var(--white-page-cl);
 
@@ -137,31 +137,34 @@ img .--center {
   border-color: var(--primary-cl);
   background-color: transparent;
 
-  /* stroke: 1px solid var(--primary-cl); */
+  stroke: 1px solid var(--primary-cl);
 }
 
 .btn.--stroke {
   height: 48px;
   padding: 0 78px;
-  background-color: transparent;
-  color: var(--primary-cl);
-  stroke: 1px solid var(--primary-cl);
+
+  color: var(--white-page-cl);
+  border: 1px solid var(--primary-cl);
 }
 .btn.--stroke:hover {
-  background-color: var(--primary-cl);
-  color: var(--white-page-cl);
+  border: 1px solid var(--primary-cl);
+  background-color: transparent;
+  color: var(--primary-cl);
 }
 
 .btn.--stroke-black {
-  height: 48px;
+  height: 64px;
   padding: 0 48px;
   background-color: transparent;
+  border: 1px solid var(--black-cl);
+  border-radius: 15px;
   color: var(--black-cl);
-  stroke: 1px solid var(--black-cl);
-}
-.btn.--stroke-black:hover {
-  background-color: var(--black-cl);
-  color: var(--white-page-cl);
+  font-family: var(--font-body);
+  &:hover {
+    background-color: var(--black-cl);
+    color: var(--white-page-cl);
+  }
 }
 
 /* Pagination */

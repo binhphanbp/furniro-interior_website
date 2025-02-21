@@ -68,7 +68,7 @@ body {
 
 .main {
   position: relative;
-  margin-top: var(--height-header);
+  margin-top: calc(var(--height-header) + var(--height-progress-bar));
 }
 
 section.--ptb {

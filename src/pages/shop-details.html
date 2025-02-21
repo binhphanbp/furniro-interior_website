@@ -20,7 +20,12 @@
     <!-- Link CSS -->
     <link rel="stylesheet" href="../assets/styles/main.css" />
   </head>
-  <body>
+  <body class="shop-details-page">
+    <!-- PROGRESS BAR -->
+    <div class="progress-container">
+      <div class="progress-bar"></div>
+    </div>
+
     <!-- HEADER -->
     <header class="header">
       <div class="container">
@@ -107,6 +112,346 @@
         </ul>
       </div>
     </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- Section Breadcrumb Detail -->
+      <section class="scbreadcrumbdetail">
+        <div class="container">
+          <div class="scbreadcrumbdetail__item">
+            <a href="../../index.html" class="linkpage">home</a>
+            <img
+              class="icon"
+              src="../../public/icons/icon-arrow-down-black.svg"
+              alt="icon-arrow-down-black"
+            />
+          </div>
+          <div class="scbreadcrumbdetail__item">
+            <a href="../../index.html" class="linkpage">shop</a>
+            <img
+              class="icon"
+              src="../../public/icons/icon-arrow-down-black.svg"
+              alt="icon-arrow-down-black"
+            />
+          </div>
+
+          <span class="divider"></span>
+
+          <p class="current-page">Asgaard sofa</p>
+        </div>
+      </section>
+
+      <!-- Section Details -->
+      <section class="scdetail --ptb">
+        <div class="container">
+          <div class="scdetail__img">
+            <div class="scdetail__img-list">
+              <div class="thumb">
+                <img src="../../public/images/detail-01.jpg" alt="detail-01" />
+              </div>
+              <div class="thumb">
+                <img src="../../public/images/detail-02.jpg" alt="detail-02" />
+              </div>
+              <div class="thumb">
+                <img src="../../public/images/detail-03.jpg" alt="detail-03" />
+              </div>
+              <div class="thumb">
+                <img src="../../public/images/detail-04.jpg" alt="detail-04" />
+              </div>
+            </div>
+            <div class="scdetail__img-main">
+              <img src="../../public/images/detail-05.jpg" alt="detail-05" />
+            </div>
+          </div>
+          <div class="scdetail__info">
+            <div class="scdetail__info-product">
+              <p class="name">Asgaard sofa</p>
+              <p class="price">250$</p>
+            </div>
+
+            <div class="scdetail__info-review">
+              <div class="start-list">
+                <img src="../../public/icons/icon-star.svg" alt="icon-star" />
+                <img src="../../public/icons/icon-star.svg" alt="icon-star" />
+                <img src="../../public/icons/icon-star.svg" alt="icon-star" />
+                <img src="../../public/icons/icon-star.svg" alt="icon-star" />
+                <img
+                  src="../../public/icons/icon-star-half.svg"
+                  alt="icon-star"
+                />
+              </div>
+
+              <span class="divider"></span>
+
+              <span class="quantity">5 Customer Review</span>
+            </div>
+
+            <p class="scdetail__info-desc">
+              Setting the bar as one of the loudest speakers in its class, the
+              Kilburn is a compact, stout-hearted hero with a well-balanced
+              audio which boasts a clear midrange and extended highs for a
+              sound.
+            </p>
+
+            <!-- ///////////// -->
+            <!-- Section for Size Selection -->
+            <div class="scdetail__info-size"></div>
+
+            <div class="scdetail__info-color"></div>
+
+            <div class="section size-section">
+              <span class="label">Size</span>
+              <div class="size-selector">
+                <input type="radio" id="size-s" name="size" />
+                <label for="size-s">S</label>
+
+                <input type="radio" id="size-m" name="size" checked />
+                <label for="size-m">M</label>
+
+                <input type="radio" id="size-l" name="size" checked />
+                <label for="size-l">L</label>
+
+                <input type="radio" id="size-xl" name="size" />
+                <label for="size-xl">XL</label>
+              </div>
+            </div>
+
+            <div class="section color-section">
+              <span class="label">Color</span>
+              <div class="color-selector">
+                <input type="radio" id="color-purple" name="color" />
+                <label for="color-purple" class="color-purple"></label>
+
+                <input type="radio" id="color-black" name="color" />
+                <label for="color-black" class="color-black"></label>
+
+                <input type="radio" id="color-gold" name="color" />
+                <label for="color-gold" class="color-gold"></label>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="btn-group">
+              <div class="btn --quantity">
+                <span class="decrease">-</span>1<span class="increase">+</span>
+              </div>
+              <a class="btn --stroke-black">Add To Cart</a>
+              <a class="btn --stroke-black"><span>+</span>Compare</a>
+            </div>
+
+            <!-- Section Data -->
+            <div class="scdetail__info-data">
+              <div class="data-item">
+                <span class="left">SKU</span>: <span class="right">SS001</span>
+              </div>
+              <div class="data-item">
+                <span class="left">Category</span>:
+                <span class="right">Sofas</span>
+              </div>
+              <div class="data-item">
+                <span class="left">Tags</span>:
+                <span class="right">Sofa, Chair, Home, Shop</span>
+              </div>
+              <div class="data-item social">
+                <span class="left">Share</span>:
+                <div class="social-list">
+                  <a href=""
+                    ><img
+                      src="../../public/icons/icon-facebook.svg"
+                      alt="icon-facebook"
+                  /></a>
+                  <a href=""
+                    ><img
+                      src="../../public/icons/icon-likedIn.svg"
+                      alt="icon-likedIn"
+                  /></a>
+                  <a href="">
+                    <img
+                      src="../../public/icons/icon-twitter.svg"
+                      alt="icon-twitter"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Information -->
+      <section class="scinformation --ptb">
+        <div class="container">
+          <div class="scinformation__tab">
+            <span class="scinformation__tab-item --active">Description</span>
+            <span class="scinformation__tab-item">Additional Information</span>
+            <span class="scinformation__tab-item">Reviews [5]</span>
+          </div>
+
+          <div class="scinformation__tab-content">
+            <div class="description">
+              <p>
+                Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn
+                portable active stereo speaker takes the unmistakable look and
+                sound of Marshall, unplugs the chords, and takes the show on the
+                road.
+              </p>
+              <p>
+                Weighing in under 7 pounds, the Kilburn is a lightweight piece
+                of vintage styled engineering. Setting the bar as one of the
+                loudest speakers in its class, the Kilburn is a compact,
+                stout-hearted hero with a well-balanced audio which boasts a
+                clear midrange and extended highs for a sound that is both
+                articulate and pronounced. The analogue knobs allow you to fine
+                tune the controls to your personal preferences while the
+                guitar-influenced leather strap enables easy and stylish travel.
+              </p>
+            </div>
+          </div>
+
+          <div class="scinformation__tab-img">
+            <div class="img">
+              <img
+                src="../../public/images/cloud-sofa-three-seater-01.jpg"
+                alt=""
+              />
+            </div>
+            <div class="img">
+              <img
+                src="../../public/images/cloud-sofa-three-seater-02.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Related Products - (Component: Product-List) -->
+      <section class="screlated --pt">
+        <div class="container">
+          <h2 class="heading --h2 --align-center">Related Products</h2>
+
+          <div class="product-list">
+            <div class="product">
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-01.jpg"
+                  alt="product-01"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Syltherine</h3>
+                <p class="desc">Stylish cafe chair</p>
+                <div class="price">
+                  <p class="price-real">100$</p>
+                  <del class="price-original">150$</del>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="tag">New</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-01.jpg"
+                  alt="product-01"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Syltherine</h3>
+                <p class="desc">Stylish cafe chair</p>
+                <div class="price">
+                  <p class="price-real">100$</p>
+                  <del class="price-original">150$</del>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="tag --sale">-50%</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-01.jpg"
+                  alt="product-01"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Syltherine</h3>
+                <p class="desc">Stylish cafe chair</p>
+                <div class="price">
+                  <p class="price-real">100$</p>
+                  <del class="price-original">150$</del>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="tag">New</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-01.jpg"
+                  alt="product-01"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Syltherine</h3>
+                <p class="desc">Stylish cafe chair</p>
+                <div class="price">
+                  <p class="price-real">100$</p>
+                  <del class="price-original">150$</del>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Button -->
+          <a href="#!" class="btn --stroke">Show More</a>
+        </div>
+      </section>
+
+      <!-- Section Services -->
+      <section class="scservices">
+        <div class="container-fluid">
+          <div class="scservices__item">
+            <div class="scservices__item-icon">
+              <img
+                src="../../public/icons/icon-trophy-high-quality.svg"
+                alt=""
+              />
+            </div>
+            <div class="scservices__item-text">
+              <p class="text-title">High Quality</p>
+              <p class="text-desc">crafted from top materials</p>
+            </div>
+          </div>
+          <div class="scservices__item">
+            <div class="scservices__item-icon">
+              <img
+                src="../../public/icons/icon-guarantee-warranty-protection.svg"
+                alt=""
+              />
+            </div>
+            <div class="scservices__item-text">
+              <p class="text-title">Warranty Protection</p>
+              <p class="text-desc">Over 2 years</p>
+            </div>
+          </div>
+          <div class="scservices__item">
+            <div class="scservices__item-icon">
+              <img src="../../public/icons/icon-shipping.svg" alt="" />
+            </div>
+            <div class="scservices__item-text">
+              <p class="text-title">Free Shipping</p>
+              <p class="text-desc">Order over 150 $</p>
+            </div>
+          </div>
+          <div class="scservices__item">
+            <div class="scservices__item-icon">
+              <img src="../../public/icons/icon-customer-support.svg" alt="" />
+            </div>
+            <div class="scservices__item-text">
+              <p class="text-title">24 / 7 Support</p>
+              <p class="text-desc">Dedicated support</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <!-- FOOTER -->
     <footer class="footer">
       <div class="container">

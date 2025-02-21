@@ -1,7 +1,3 @@
-.shop-page {
-  margin-top: calc(var(--height-header) + var(--height-progress-bar));
-}
-
 .scbreadcrumb {
   height: calc(100vh - (var(--height-header)+var(--height-progress-bar)));
   max-height: 326px;
@@ -31,7 +27,7 @@
   align-items: center;
 }
 
-.btn {
+.button {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -46,11 +42,11 @@
   transition: background 0.2s ease-in-out;
 }
 
-.btn:hover {
+.button:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.btn img {
+.button img {
   width: 16px;
   height: 16px;
 }

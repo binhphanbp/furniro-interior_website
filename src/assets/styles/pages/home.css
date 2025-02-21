@@ -4,75 +4,86 @@
   max-height: 980px;
   min-height: 640px;
   overflow: hidden;
-
   background-repeat: no-repeat;
   background-size: cover;
-}
 
-.schero .container {
-  position: relative;
-}
+  .container {
+    position: relative;
+  }
 
-.schero__discover {
-  width: 643px;
-  height: 443px;
-  padding: 62px 40px 37px 43px;
-  background-color: var(--secondary-cl);
-  border-radius: 10px;
+  .schero__discover {
+    width: 643px;
+    height: 443px;
+    padding: 62px 40px 37px 43px;
+    background-color: var(--secondary-cl);
+    border-radius: 10px;
+    margin: 196px 0px auto auto;
+    /* position: absolute; */
+    /* right: 10px;
+    bottom: 116px; */
 
-  margin: 196px 0px auto auto;
-  /* position: absolute; */
-  /* right: 10px;
-  bottom: 116px; */
-}
+    .schero__discover-title {
+      font-family: var(--font-body-semibold);
+      letter-spacing: 3px;
+      margin-bottom: 4px;
+    }
 
-.schero__discover .schero__discover-title {
-  font-family: var(--font-body-semibold);
-  letter-spacing: 3px;
-  margin-bottom: 4px;
-}
-
-.schero__discover .textbox .desc {
-  color: var(--black-cl);
-  margin-bottom: 46px;
+    .textbox .desc {
+      color: var(--black-cl);
+      margin-bottom: 46px;
+    }
+  }
 }
 
 /* SECTION INSPIRATION */
-.scinspiration .textbox .desc {
-  font-family: var(--font-body);
-  font-size: 20px;
-}
+.scinspiration {
+  .textbox .desc {
+    font-family: var(--font-body);
+    font-size: 20px;
+  }
 
-.scinspiration__list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 56px;
-}
+  .scinspiration__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 56px;
 
-.scinspiration__list-item:first-child .thumb {
-  border-top-left-radius: 100px;
-}
-.scinspiration__list-item:last-child .thumb {
-  border-bottom-right-radius: 100px;
-}
-.scinspiration__list-item:nth-child(2) .thumb {
-  margin-top: -28px;
-}
+    .scinspiration__list-item {
+      &:first-child {
+        .thumb {
+          border-top-left-radius: 100px;
+        }
+      }
+      &:last-child {
+        .thumb {
+          border-bottom-right-radius: 100px;
+        }
+      }
+      &:nth-child(2) {
+        .thumb {
+          margin-top: -28px;
+        }
+      }
 
-.scinspiration__list-item .heading {
-  margin-top: 26px;
-  text-align: center;
-  font-family: var(--font-body-semibold);
-}
-.scinspiration__list-item:nth-child(2) .heading {
-  margin-top: 56px;
+      .heading {
+        margin-top: 26px;
+        text-align: center;
+        font-family: var(--font-body-semibold);
+      }
+      &:nth-child(2) {
+        .heading {
+          margin-top: 56px;
+        }
+      }
+    }
+  }
 }
 
 /* SECTION PRODUCTS */
-
-.scproducts .btn {
-  display: flex;
-  width: fit-content;
-  margin: 32px auto 0px auto;
+.scproducts {
+  .btn {
+    display: flex;
+    width: fit-content;
+    margin: 32px auto 0px auto;
+  }
 }

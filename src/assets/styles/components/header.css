@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  top: 0;
+  top: var(--height-progress-bar);
   z-index: 3;
   width: 100%;
   max-width: var(--max-width-page);
@@ -81,6 +81,15 @@
 
 .header .header__icons .header__icons-item {
   align-self: center;
+
+  transition: var(--duration);
+  -webkit-transition: var(--duration);
+  -moz-transition: var(--duration);
+  -ms-transition: var(--duration);
+  -o-transition: var(--duration);
+  &:hover {
+    rotate: -4deg;
+  }
 }
 
 .header .header__icons .header__icons-item a svg path {

@@ -3,35 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Book Page</title>
+    <title>Shop</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="../../public/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="../../public/icons/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../assets/styles/main.css" />
   </head>
   <body>
+    <!-- PROGRESS BAR -->
+    <div class="progress-container">
+      <div class="progress-bar"></div>
+    </div>
+
     <!-- HEADER -->
     <header class="header">
       <div class="container">
         <nav class="header__menu">
           <a class="header__logo" href="#">
-            <img src="./icons/furniro-logo-type.svg" alt="logo-furniro" />
+            <img
+              src="../../public/icons/furniro-logo-type.svg"
+              alt="logo-furniro"
+            />
           </a>
           <ul class="header__menu-list">
             <li>
               <a href="#" class="--active">home</a>
             </li>
             <li>
-              <a href="./src/pages/shop.html">shop</a>
+              <a href="./shop.html">shop</a>
             </li>
             <li>
-              <a href="./src/pages/blog.html">blog</a>
+              <a href="./blog.html">blog</a>
             </li>
             <li>
-              <a href="./src/pages/contact.html">contact</a>
+              <a href="./contact.html">contact</a>
             </li>
           </ul>
         </nav>
         <ul class="header__icons">
           <li class="header__icons-searchbar">
             <label for="search-input">
-              <img src="./icons/icon-search.svg" alt="icon-search" />
+              <img src="../../public/icons/icon-search.svg" alt="icon-search" />
             </label>
             <input type="text" id="search-input" placeholder="Search" />
           </li>
@@ -55,7 +78,7 @@
             </a>
           </li>
           <li class="header__icons-item">
-            <a href="./src/pages/cart.html">
+            <a href="./cart.html">
               <svg
                 width="28"
                 height="28"
@@ -89,6 +112,404 @@
         </ul>
       </div>
     </header>
+
+    <!-- MAIN -->
+    <main class="shop-page">
+      <!-- Section Breadcrumb -->
+      <section
+        class="scbreadcrumb"
+        style="background-image: url(../../public/images/header-banner.jpg)"
+      >
+        <div class="scbreadcrumb__info">
+          <img
+            src="../../public/icons/furniro-logo-mark.svg"
+            alt="logo-mark-furniro"
+            class="scbreadcrumb__logo-mark"
+          />
+          <p class="scbreadcrumb__info-page">shop</p>
+          <div class="scbreadcrumb__info-detail">
+            <a href="../../index.html" class="home"> <p>home</p></a>
+            <img
+              class="icon"
+              src="../../public/icons/icon-arrow-down-black.svg"
+              alt="icon-arrow-down-black"
+            />
+            <a href="../pages/shop.html" class="current-page">
+              <span>shop</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Toolbar -->
+      <div class="toolbar">
+        <div class="container">
+          <div class="toolbar-left">
+            <button class="btn filter">
+              <img src="../../public/icons/icon-filter.svg" alt="Filter" />
+              Filter
+            </button>
+            <button class="btn">
+              <img
+                src="../../public/icons/icon-four-round.svg"
+                alt="Grid View"
+              />
+            </button>
+            <button class="btn">
+              <img
+                src="../../public/icons/icon-view-list.svg"
+                alt="List View"
+              />
+            </button>
+            <span class="divider"></span>
+            <span class="results-text">Showing 1–16 of 32 results</span>
+          </div>
+
+          <div class="toolbar-right">
+            <span class="label">Show</span>
+            <input type="text" value="16" class="input-box" readonly />
+
+            <span class="label">Short by</span>
+            <input
+              type="text"
+              value="Default"
+              class="input-box disabled"
+              readonly
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Products -->
+      <section class="scproducts --pb">
+        <div class="container">
+          <!-- Products List -->
+          <div class="product-list">
+            <div class="product">
+              <div class="tag --sale">-30%</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-09.jpg"
+                  alt="product-09"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Syltherine</h3>
+                <p class="desc">Stylish cafe chair</p>
+                <div class="price">
+                  <p class="price-real">250$</p>
+                  <del class="price-original">350$</del>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-10.jpg"
+                  alt="product-10"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Leviosa</h3>
+                <p class="desc">Stylish cafe chair</p>
+                <div class="price">
+                  <p class="price-real">220$</p>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="tag --sale">-50%</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-11.jpg"
+                  alt="product-11"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Lolito</h3>
+                <p class="desc">Luxury big sofa</p>
+                <div class="price">
+                  <p class="price-real">650$</p>
+                  <del class="price-original">900$</del>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="tag">New</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-12.jpg"
+                  alt="product-12"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Respira</h3>
+                <p class="desc">Outdoor bar table and stool</p>
+                <div class="price">
+                  <p class="price-real">500$</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="tag --sale">-30%</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-09.jpg"
+                  alt="product-09"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Syltherine</h3>
+                <p class="desc">Stylish cafe chair</p>
+                <div class="price">
+                  <p class="price-real">250$</p>
+                  <del class="price-original">350$</del>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-10.jpg"
+                  alt="product-10"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Leviosa</h3>
+                <p class="desc">Stylish cafe chair</p>
+                <div class="price">
+                  <p class="price-real">220$</p>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="tag --sale">-50%</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-11.jpg"
+                  alt="product-11"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Lolito</h3>
+                <p class="desc">Luxury big sofa</p>
+                <div class="price">
+                  <p class="price-real">650$</p>
+                  <del class="price-original">900$</del>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="tag">New</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-12.jpg"
+                  alt="product-12"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Respira</h3>
+                <p class="desc">Outdoor bar table and stool</p>
+                <div class="price">
+                  <p class="price-real">500$</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="tag --sale">-30%</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-09.jpg"
+                  alt="product-09"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Syltherine</h3>
+                <p class="desc">Stylish cafe chair</p>
+                <div class="price">
+                  <p class="price-real">250$</p>
+                  <del class="price-original">350$</del>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-10.jpg"
+                  alt="product-10"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Leviosa</h3>
+                <p class="desc">Stylish cafe chair</p>
+                <div class="price">
+                  <p class="price-real">220$</p>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="tag --sale">-50%</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-11.jpg"
+                  alt="product-11"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Lolito</h3>
+                <p class="desc">Luxury big sofa</p>
+                <div class="price">
+                  <p class="price-real">650$</p>
+                  <del class="price-original">900$</del>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="tag">New</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-12.jpg"
+                  alt="product-12"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Respira</h3>
+                <p class="desc">Outdoor bar table and stool</p>
+                <div class="price">
+                  <p class="price-real">500$</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="product">
+              <div class="tag --sale">-30%</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-09.jpg"
+                  alt="product-09"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Syltherine</h3>
+                <p class="desc">Stylish cafe chair</p>
+                <div class="price">
+                  <p class="price-real">250$</p>
+                  <del class="price-original">350$</del>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-10.jpg"
+                  alt="product-10"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Leviosa</h3>
+                <p class="desc">Stylish cafe chair</p>
+                <div class="price">
+                  <p class="price-real">220$</p>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="tag --sale">-50%</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-11.jpg"
+                  alt="product-11"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Lolito</h3>
+                <p class="desc">Luxury big sofa</p>
+                <div class="price">
+                  <p class="price-real">650$</p>
+                  <del class="price-original">900$</del>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="tag">New</div>
+              <a class="thumb" href="#!">
+                <img
+                  src="../../public/images/product-12.jpg"
+                  alt="product-12"
+                />
+              </a>
+              <div class="textbox">
+                <h3 class="heading --h3">Respira</h3>
+                <p class="desc">Outdoor bar table and stool</p>
+                <div class="price">
+                  <p class="price-real">500$</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pagination -->
+          <div class="pagination">
+            <div class="container">
+              <div class="btn-pagination --active">1</div>
+              <div class="btn-pagination">2</div>
+              <div class="btn-pagination">3</div>
+              <div class="btn-pagination">Next</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scservices">
+        <div class="container-fluid">
+          <div class="scservices__item">
+            <div class="scservices__item-icon">
+              <img
+                src="../../public/icons/icon-trophy-high-quality.svg"
+                alt=""
+              />
+            </div>
+            <div class="scservices__item-text">
+              <p class="text-title">High Quality</p>
+              <p class="text-desc">crafted from top materials</p>
+            </div>
+          </div>
+          <div class="scservices__item">
+            <div class="scservices__item-icon">
+              <img
+                src="../../public/icons/icon-guarantee-warranty-protection.svg"
+                alt=""
+              />
+            </div>
+            <div class="scservices__item-text">
+              <p class="text-title">Warranty Protection</p>
+              <p class="text-desc">Over 2 years</p>
+            </div>
+          </div>
+          <div class="scservices__item">
+            <div class="scservices__item-icon">
+              <img src="../../public/icons/icon-shipping.svg" alt="" />
+            </div>
+            <div class="scservices__item-text">
+              <p class="text-title">Free Shipping</p>
+              <p class="text-desc">Order over 150 $</p>
+            </div>
+          </div>
+          <div class="scservices__item">
+            <div class="scservices__item-icon">
+              <img src="../../public/icons/icon-customer-support.svg" alt="" />
+            </div>
+            <div class="scservices__item-text">
+              <p class="text-title">24 / 7 Support</p>
+              <p class="text-desc">Dedicated support</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <!-- FOOTER -->
     <footer class="footer">
       <div class="container">
@@ -96,9 +517,9 @@
           <!-- Info -->
           <div class="footer__top-info">
             <div class="footer__top-info">
-              <a class="logo-furniro" href="./">
+              <a class="logo-furniro" href="../../index.html">
                 <img
-                  src="./icons/furniro-logo-type.svg"
+                  src="../../public/icons/furniro-logo-type.svg"
                   alt="furniro-logo-type"
                 />
               </a>
@@ -114,10 +535,10 @@
           <div class="submenu">
             <p class="submenu__title">links</p>
             <ul>
-              <li><a href="#">home</a></li>
-              <li><a href="#">shop</a></li>
-              <li><a href="#">about</a></li>
-              <li><a href="#">contact</a></li>
+              <li><a href="./">home</a></li>
+              <li><a href="./shop.html">shop</a></li>
+              <li><a href="./blog.html">blog</a></li>
+              <li><a href="./contact.html">contact</a></li>
             </ul>
           </div>
           <div class="submenu">

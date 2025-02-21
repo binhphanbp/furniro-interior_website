@@ -3,7 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu Page</title>
+    <title>Comparison</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="../../public/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="../../public/icons/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../assets/styles/main.css" />
   </head>
   <body>
     <!-- HEADER -->
@@ -11,27 +26,30 @@
       <div class="container">
         <nav class="header__menu">
           <a class="header__logo" href="#">
-            <img src="./icons/furniro-logo-type.svg" alt="logo-furniro" />
+            <img
+              src="../../public/icons/furniro-logo-type.svg"
+              alt="logo-furniro"
+            />
           </a>
           <ul class="header__menu-list">
             <li>
               <a href="#" class="--active">home</a>
             </li>
             <li>
-              <a href="./src/pages/shop.html">shop</a>
+              <a href="./shop.html">shop</a>
             </li>
             <li>
-              <a href="./src/pages/blog.html">blog</a>
+              <a href="./blog.html">blog</a>
             </li>
             <li>
-              <a href="./src/pages/contact.html">contact</a>
+              <a href="./contact.html">contact</a>
             </li>
           </ul>
         </nav>
         <ul class="header__icons">
           <li class="header__icons-searchbar">
             <label for="search-input">
-              <img src="./icons/icon-search.svg" alt="icon-search" />
+              <img src="../../public/icons/icon-search.svg" alt="icon-search" />
             </label>
             <input type="text" id="search-input" placeholder="Search" />
           </li>
@@ -55,7 +73,7 @@
             </a>
           </li>
           <li class="header__icons-item">
-            <a href="./src/pages/cart.html">
+            <a href="./cart.html">
               <svg
                 width="28"
                 height="28"
@@ -98,7 +116,7 @@
             <div class="footer__top-info">
               <a class="logo-furniro" href="./">
                 <img
-                  src="./icons/furniro-logo-type.svg"
+                  src="../../public/icons/furniro-logo-type.svg"
                   alt="furniro-logo-type"
                 />
               </a>
@@ -114,10 +132,10 @@
           <div class="submenu">
             <p class="submenu__title">links</p>
             <ul>
-              <li><a href="#">home</a></li>
-              <li><a href="#">shop</a></li>
-              <li><a href="#">about</a></li>
-              <li><a href="#">contact</a></li>
+              <li><a href="./">home</a></li>
+              <li><a href="./shop.html">shop</a></li>
+              <li><a href="./blog.html">blog</a></li>
+              <li><a href="./contact.html">contact</a></li>
             </ul>
           </div>
           <div class="submenu">

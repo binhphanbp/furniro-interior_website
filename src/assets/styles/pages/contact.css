@@ -1,14 +1,101 @@
-.scmap {
+/* Section Contact */
+
+.sccontact {
+  .textbox {
+    max-width: 644px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    .desc {
+      color: var(--gray-light-cl);
+      font-family: var(--font-body);
+    }
+  }
+  .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+
+    .sccontact__info {
+      max-width: 250px;
+      margin-top: -38px;
+
+      .sccontact__info-detail {
+        &:not(:last-child) {
+          margin-bottom: 42px;
+        }
+
+        .title {
+          font-size: 2.4rem;
+          font-family: var(--font-body-medium);
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+    }
+
+    .sccontact__form {
+      input[type='text'],
+      textarea {
+        padding: 0 164px 0 32px;
+        border: 0;
+        outline: none;
+        width: 480px;
+        height: 80px;
+        background-color: transparent;
+        border-radius: 10px;
+        border: 1px solid var(--gray-light-cl);
+
+        &::placeholder {
+          color: var(--gray-light-cl);
+        }
+      }
+      textarea {
+        padding: 30px 164px 30px 35px;
+        width: 480px;
+        height: 130px;
+        resize: none;
+      }
+
+      .btn {
+        height: 64px;
+        padding: 0 88px;
+        border-radius: 5px;
+      }
+
+      .inputtext {
+        position: relative;
+        margin-bottom: 70px;
+
+        label {
+          font-family: var(--font-body-medium);
+          position: absolute;
+          top: -40px;
+        }
+      }
+    }
+  }
+}
+
+/* .sccontact .text-box .desc {
+  color: var(--gray-light-cl);
+} */
+
+/* .scmap {
   width: 1000px;
   height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
 
+  .container-fluid {
+    position: relative;
+  }
   iframe {
-    width: 1000px;
+    width: 1600px;
     height: 500px;
     border: none;
     display: block;
   }
-}
+} */

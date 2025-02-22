@@ -1,0 +1,113 @@
+.container-table {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: var(--max-width-container);
+  padding-right: var(--gap);
+  padding-left: var(--gap);
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+/* Cart Table */
+.cart-table {
+  width: 65%;
+  border-collapse: collapse;
+}
+
+.cart-table th {
+  text-align: left;
+  padding: 10px;
+  background: var(--secondary-cl);
+}
+
+.cart-table td {
+  padding: 10px;
+}
+
+.table-subtotal {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  img {
+    cursor: pointer;
+    transition: var(--duration);
+    -webkit-transition: var(--duration);
+    -moz-transition: var(--duration);
+    -ms-transition: var(--duration);
+    -o-transition: var(--duration);
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+.product-info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.product-info img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input[type='number'] {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid var(--gray-light-cl);
+}
+
+/* Xoá dấu mũi tên lên xuống (Tăng giảm số) */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Cart Totals */
+.cart-totals {
+  width: 35%;
+  background: var(--secondary-cl);
+  padding: 45px 75px 75px 80px;
+  border-radius: 8px;
+
+  span {
+    font-family: var(--font-body-semibold);
+  }
+}
+
+.cart-totals h2 {
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.subtotal {
+  font-family: var(--font-body);
+  color: var(--gray-light-cl);
+}
+
+.totals-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  font-size: 16px;
+}
+
+.total {
+  font-size: 2rem;
+  font-family: var(--font-body-medium);
+  color: #c28b00;
+}
+
+/* .btn.--stroke-black {
+} */

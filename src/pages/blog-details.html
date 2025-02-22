@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cart</title>
+    <title>Blog Detail</title>
 
     <!-- Favicon -->
     <link
@@ -20,7 +20,7 @@
     <!-- Link CSS -->
     <link rel="stylesheet" href="../assets/styles/main.css" />
   </head>
-  <body class="cart-page">
+  <body class="blog-page">
     <!-- PROGRESS BAR -->
     <div class="progress-container">
       <div class="progress-bar"></div>
@@ -30,7 +30,7 @@
     <header class="header">
       <div class="container">
         <nav class="header__menu">
-          <a class="header__logo" href="#">
+          <a class="header__logo" href="./index.html">
             <img
               src="../../public/icons/furniro-logo-type.svg"
               alt="logo-furniro"
@@ -113,6 +113,7 @@
       </div>
     </header>
 
+    <!-- MAIN -->
     <main class="main">
       <!-- Section Breadcrumb -->
       <section
@@ -125,7 +126,7 @@
             alt="logo-mark-furniro"
             class="scbreadcrumb__logo-mark"
           />
-          <p class="scbreadcrumb__info-page">cart</p>
+          <p class="scbreadcrumb__info-page">blog</p>
           <div class="scbreadcrumb__info-detail">
             <a href="../../index.html" class="home"> <p>home</p></a>
             <img
@@ -133,67 +134,200 @@
               src="../../public/icons/icon-arrow-down-black.svg"
               alt="icon-arrow-down-black"
             />
-            <a href="../pages/cart.html" class="current-page">
-              <span>cart</span>
+            <a href="../pages/blog.html" class="current-page">
+              <span>blog</span>
             </a>
           </div>
         </div>
       </section>
 
-      <!-- Section Checkout -->
-      <section class="cart-container --ptb">
-        <div class="container-table">
-          <!-- Bảng giỏ hàng -->
-          <table class="cart-table">
-            <thead>
-              <tr>
-                <th>Product</th>
-                <th>Price</th>
-                <th>Quantity</th>
-                <th>Subtotal</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="product-info">
-                  <img
-                    src="../../public/images/detail-01.jpg"
-                    alt="Asgaard Sofa"
-                  />
-                  <span>Asgaard sofa</span>
-                </td>
-                <td>Rs. 250,000.00</td>
-                <td><input type="number" value="1" /></td>
-                <td class="table-subtotal">
-                  Rs. 250,000.00
-                  <img
-                    class="delete-icon"
-                    src="../../public/icons/icon-delete.svg"
-                    alt=""
-                  />
-                </td>
-                <td></td>
-              </tr>
-            </tbody>
-          </table>
+      <!-- Section Blog -->
+      <section class="scblog --ptb">
+        <div class="container">
+          <div class="scblog__main">
+            <div class="scblog__main-item">
+              <figure class="post">
+                <div class="post__img">
+                  <img src="../../public/images/blog-01.jpg" alt="blog-01" />
+                </div>
 
-          <!-- Tổng tiền -->
-          <div class="cart-totals">
-            <h2 class="heading --h2 --align-center">Cart Totals</h2>
-            <div class="totals-item">
-              <span>Subtotal</span>
-              <span class="subtotal">Rs. 250,000.00</span>
+                <figcaption class="heading --h3">
+                  Elevate Your Living Room with Stylish Furniture
+                </figcaption>
+                <p class="desc">
+                  Are you tired of the same old living room setup, longing for a
+                  refreshing change? It's time to embark on a journey of
+                  transformation with our meticulously curated selection of
+                  stylish furniture. We understand the importance of creating a
+                  living space that not only exudes comfort but also captivates
+                  with its aesthetic allure. Begin this exciting venture by
+                  choosing a statement sofa that goes beyond mere functionality.
+                  Let it be the centerpiece of your room, a source of comfort
+                  that doubles as the focal point. Opt for neutral tones,
+                  creating a timeless and versatile atmosphere that serves as a
+                  canvas for your personalized touch.
+                </p>
+
+                <!-- Button Read More -->
+                <a
+                  href="../../src/pages/blog-details.html"
+                  class="btn --readmore"
+                  >Read More</a
+                >
+              </figure>
             </div>
-            <div class="totals-item">
-              <span>Total</span>
-              <span class="total">Rs. 250,000.00</span>
+            <div class="scblog__main-item">
+              <figure class="post">
+                <div class="post__img">
+                  <img src="../../public/images/blog-02.jpg" alt="blog-02" />
+                </div>
+
+                <figcaption class="heading --h3">
+                  The Art of Choosing the Right Dining Furniture
+                </figcaption>
+                <p class="desc">
+                  The dining room is a multifaceted space that serves various
+                  purposes beyond just a place to eat; it's a central hub for
+                  gathering, entertaining, and creating enduring memories.
+                  Selecting the right dining furniture is paramount to elevating
+                  this experience, transforming it into a haven of warmth and
+                  style. Commence your dining room transformation by anchoring
+                  the space with a sturdy and stylish dining table. The choice
+                  of the table should align with the size of your room and
+                  comfortably accommodate your family or guests. A
+                  well-proportioned table not only serves its functional purpose
+                  but also becomes the focal point, setting the tone for the
+                  entire room. Chairs in the dining room are not merely
+                  utilitarian; they play a pivotal role in shaping the overall
+                  aesthetics of the space. Consider mixing and matching
+                  different chair styles for a trendy and eclectic......
+                </p>
+
+                <!-- Button Read More -->
+                <a
+                  href="../../src/pages/blog-details.html"
+                  class="btn --readmore"
+                  >Read More</a
+                >
+              </figure>
             </div>
-            <a href="../../src/pages/checkout.html" class="btn --stroke-black"
-              >Check out</a
-            >
+            <div class="scblog__main-item">
+              <figure class="post">
+                <div class="post__img">
+                  <img src="../../public/images/blog-03.jpg" alt="blog-03" />
+                </div>
+
+                <figcaption class="heading --h3">
+                  Bedroom Bliss: Creating a Relaxing Oasis
+                </figcaption>
+                <p class="desc">
+                  Creating a bedroom that serves as a sanctuary for relaxation
+                  and rejuvenation involves a thoughtful selection of furniture
+                  pieces and the careful crafting of a serene atmosphere. Your
+                  bedroom, often considered a personal haven, should be a space
+                  where you can unwind, recharge, and escape from the stresses
+                  of the day. Let's delve into the key elements and
+                  considerations to achieve the ultimate bedroom bliss. Central
+                  to any bedroom is the bed – the focal point that sets the tone
+                  for the entire space. Opt for a bed that not only meets your
+                  comfort preferences but also complements the overall decor of
+                  your bedroom. The choice of a quality mattress and luxurious
+                  bedding further enhances the sleep experience, contributing to
+                  a restful night. Nightstands play a dual role in enhancing
+                  convenience and style within the bedroom. Select bedside
+                  tables that......
+                </p>
+
+                <!-- Button Read More -->
+                <a
+                  href="../../src/pages/blog-details.html"
+                  class="btn --readmore"
+                  >Read More</a
+                >
+              </figure>
+            </div>
           </div>
+
+          <aside class="scblog__recent">
+            <p class="scblog__recent-title">Recent Posts</p>
+            <div class="scblog__recent-posts">
+              <div class="post">
+                <div class="post-thumb">
+                  <img
+                    src="../../public/images/recent-post-01.jpg"
+                    alt="recent-post-01"
+                  />
+                </div>
+                <div class="text">
+                  <p class="post-title">Going all-in with millennial design</p>
+                  <p class="post-desc">03 Aug 2022</p>
+                </div>
+              </div>
+
+              <div class="post">
+                <div class="post-thumb">
+                  <img
+                    src="../../public/images/recent-post-02.jpg"
+                    alt="recent-post-02"
+                  />
+                </div>
+                <div class="text">
+                  <p class="post-title">Going all-in with millennial design</p>
+                  <p class="post-desc">03 Aug 2022</p>
+                </div>
+              </div>
+
+              <div class="post">
+                <div class="post-thumb">
+                  <img
+                    src="../../public/images/recent-post-03.jpg"
+                    alt="recent-post-03"
+                  />
+                </div>
+                <div class="text">
+                  <p class="post-title">Going all-in with millennial design</p>
+                  <p class="post-desc">03 Aug 2022</p>
+                </div>
+              </div>
+
+              <div class="post">
+                <div class="post-thumb">
+                  <img
+                    src="../../public/images/recent-post-04.jpg"
+                    alt="recent-post-04"
+                  />
+                </div>
+                <div class="text">
+                  <p class="post-title">Going all-in with millennial design</p>
+                  <p class="post-desc">03 Aug 2022</p>
+                </div>
+              </div>
+
+              <div class="post">
+                <div class="post-thumb">
+                  <img
+                    src="../../public/images/recent-post-05.jpg"
+                    alt="recent-post-05"
+                  />
+                </div>
+                <div class="text">
+                  <p class="post-title">Going all-in with millennial design</p>
+                  <p class="post-desc">03 Aug 2022</p>
+                </div>
+              </div>
+            </div>
+          </aside>
         </div>
       </section>
+      <!-- Pagination -->
+      <div class="pagination">
+        <div class="container">
+          <div class="btn-pagination --active">1</div>
+          <div class="btn-pagination">2</div>
+          <div class="btn-pagination">3</div>
+          <div class="btn-pagination">Next</div>
+        </div>
+      </div>
 
       <!-- Section Services -->
       <section class="scservices">
@@ -251,7 +385,7 @@
           <!-- Info -->
           <div class="footer__top-info">
             <div class="footer__top-info">
-              <a class="logo-furniro" href="./">
+              <a class="logo-furniro" href="../../index.html">
                 <img
                   src="../../public/icons/furniro-logo-type.svg"
                   alt="furniro-logo-type"

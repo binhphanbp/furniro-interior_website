@@ -167,6 +167,18 @@ img .--center {
   }
 }
 
+.btn.--readmore {
+  background-color: transparent;
+  color: var(--black-cl);
+  padding: 0;
+  border-bottom: 1px solid var(--black-cl);
+
+  &:hover {
+    color: var(--primary-cl);
+    border-bottom: 1px solid var(--primary-cl);
+  }
+}
+
 /* Pagination */
 .pagination {
   .container {

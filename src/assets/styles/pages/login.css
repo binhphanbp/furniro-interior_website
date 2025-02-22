@@ -1,0 +1,79 @@
+.sccontact__form {
+  input[type='text'],
+  input[type='password'] {
+    padding: 0 164px 0 32px;
+    border: 0;
+    outline: none;
+    width: 480px;
+    height: 80px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid var(--primary-cl);
+
+    &::placeholder {
+      color: var(--gray-light-cl);
+    }
+
+    cursor: pointer;
+    transition: var(--duration);
+    -webkit-transition: var(--duration);
+    -moz-transition: var(--duration);
+    -ms-transition: var(--duration);
+    -o-transition: var(--duration);
+    &:hover {
+      border: 1px solid var(--gray-dark-cl);
+    }
+
+    &:focus {
+      border: 1px solid var(--primary-cl-hover);
+    }
+  }
+
+  .inputtext {
+    position: relative;
+    margin-bottom: 70px;
+
+    label {
+      font-family: var(--font-body-medium);
+      position: absolute;
+      top: -40px;
+    }
+  }
+
+  .other {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    .btn {
+      height: 64px;
+      padding: 0 88px;
+      border-radius: 6px;
+
+      &.--social {
+        padding: 12px 13px;
+        background-color: transparent;
+        color: var(--primary-cl);
+
+        &:not(last-child) {
+          margin-right: 10px;
+        }
+
+        &:hover {
+          background-color: var(--primary-cl);
+          color: var(--white-page-cl);
+        }
+      }
+
+      img {
+        width: 36px;
+        height: 36px;
+      }
+    }
+
+    .link {
+      font-family: var(--font-body-medium);
+      color: var(--primary-cl);
+    }
+  }
+}

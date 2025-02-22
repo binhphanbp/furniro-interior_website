@@ -14,7 +14,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 100px;
+    gap: 120px;
 
     .sccontact__info {
       max-width: 250px;
@@ -29,8 +29,9 @@
           font-size: 2.4rem;
           font-family: var(--font-body-medium);
           display: flex;
-          align-items: center;
+          margin-bottom: 10px;
           gap: 10px;
+          align-items: center;
         }
       }
     }
@@ -45,10 +46,24 @@
         height: 80px;
         background-color: transparent;
         border-radius: 10px;
-        border: 1px solid var(--gray-light-cl);
+        border: 1px solid var(--primary-cl);
 
         &::placeholder {
           color: var(--gray-light-cl);
+        }
+
+        cursor: pointer;
+        transition: var(--duration);
+        -webkit-transition: var(--duration);
+        -moz-transition: var(--duration);
+        -ms-transition: var(--duration);
+        -o-transition: var(--duration);
+        &:hover {
+          border: 1px solid var(--gray-dark-cl);
+        }
+
+        &:focus {
+          border: 1px solid var(--primary-cl-hover);
         }
       }
       textarea {
@@ -62,6 +77,12 @@
         height: 64px;
         padding: 0 88px;
         border-radius: 5px;
+        border: 1px solid var(--primary-cl);
+
+        &:hover {
+          border: 1px solid var(--primary-cl);
+          background-color: transparent;
+        }
       }
 
       .inputtext {

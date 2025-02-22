@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign up</title>
+    <title>Log in</title>
 
     <!-- Favicon -->
     <link
@@ -20,7 +20,7 @@
     <!-- Link CSS -->
     <link rel="stylesheet" href="../assets/styles/main.css" />
   </head>
-  <body>
+  <body class="login-page">
     <!-- HEADER -->
     <header class="header">
       <div class="container">
@@ -107,6 +107,131 @@
         </ul>
       </div>
     </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- Section Contact -->
+      <section class="sccontact --ptb">
+        <div class="textbox --align-center">
+          <h2 class="heading --h2">Create your Free Account</h2>
+        </div>
+        <div class="container">
+          <form class="sccontact__form" action="#" method="POST">
+            <div class="inputtext">
+              <label for="fullname">Full Name</label>
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Abc"
+              />
+            </div>
+
+            <div class="inputtext">
+              <label for="email">Email address</label>
+
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Abc@example.com"
+              />
+            </div>
+
+            <div class="inputtext">
+              <label for="subject">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Your password"
+              />
+            </div>
+
+            <!-- Button -->
+            <div class="other">
+              <p class="or">- OR -</p>
+              <div class="other-login">
+                <button class="btn --social" type="submit">
+                  <img src="../../public/icons/icon-github.svg" alt="" /> Sign
+                  up with GitHub
+                </button>
+                <button class="btn --social" type="submit">
+                  <img src="../../public/icons/icon-google.svg" alt="" /> Sign
+                  up with Google
+                </button>
+              </div>
+              <p>
+                Do not have an account?
+                <a class="link" href="../../src/pages/login.html">Log in</a>
+              </p>
+              <button class="btn" type="submit">Login</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Sectiion Map -->
+      <!-- <section class="scmap --ptb">
+        <div class="container-fluid">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.092073841733!2d-122.41941608468158!3d37.77492927975947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e2e01b1f5b1%3A0x68f4e4e13c6e7f1e!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2s!4v1615382144576!5m2!1sen!2s"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </section> -->
+
+      <!-- Section Services -->
+      <section class="scservices">
+        <div class="container-fluid">
+          <div class="scservices__item">
+            <div class="scservices__item-icon">
+              <img
+                src="../../public/icons/icon-trophy-high-quality.svg"
+                alt=""
+              />
+            </div>
+            <div class="scservices__item-text">
+              <p class="text-title">High Quality</p>
+              <p class="text-desc">crafted from top materials</p>
+            </div>
+          </div>
+          <div class="scservices__item">
+            <div class="scservices__item-icon">
+              <img
+                src="../../public/icons/icon-guarantee-warranty-protection.svg"
+                alt=""
+              />
+            </div>
+            <div class="scservices__item-text">
+              <p class="text-title">Warranty Protection</p>
+              <p class="text-desc">Over 2 years</p>
+            </div>
+          </div>
+          <div class="scservices__item">
+            <div class="scservices__item-icon">
+              <img src="../../public/icons/icon-shipping.svg" alt="" />
+            </div>
+            <div class="scservices__item-text">
+              <p class="text-title">Free Shipping</p>
+              <p class="text-desc">Order over 150 $</p>
+            </div>
+          </div>
+          <div class="scservices__item">
+            <div class="scservices__item-icon">
+              <img src="../../public/icons/icon-customer-support.svg" alt="" />
+            </div>
+            <div class="scservices__item-text">
+              <p class="text-title">24 / 7 Support</p>
+              <p class="text-desc">Dedicated support</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <!-- FOOTER -->
     <footer class="footer">
       <div class="container">

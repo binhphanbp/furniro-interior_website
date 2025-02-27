@@ -87,3 +87,9 @@
     margin: 32px auto 0px auto;
   }
 }
+
+/* SECTION VIDEO */
+.scvideo .container iframe {
+  width: 100%;
+  height: 600px;
+}

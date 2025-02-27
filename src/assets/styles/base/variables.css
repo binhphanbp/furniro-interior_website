@@ -16,9 +16,21 @@
   --white-page-cl: #f9f6ee;
   --black-cl: #0b1215;
 
-  --gray-dark-cl: #898989;
+  /* --gray-dark-cl: #898989;
   --gray-light-cl: #9f9f9f;
   --product-hover: #3a3a3a;
+
+  --primary-cl: #e3b653;
+  --primary-cl-hover: #ffcc6e;
+  --secondary-cl: #1c1a1a;
+  --tertiary-cl: #252322;
+
+  --white-page-cl: #121111;
+  --black-cl: #f5f3f1; */
+
+  --gray-dark-cl: #afafaf;
+  --gray-light-cl: #d1d1d1;
+  --product-hover: #ffffff33;
 
   --red-cl: #e97171;
   --green-cl: #2ec1ac;

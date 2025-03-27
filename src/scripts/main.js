@@ -1,3 +1,20 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const thumbnails = document.querySelectorAll('.scdetail__img-list .thumb');
+  const mainImage = document.querySelector('.scdetail__img-main img');
+
+  thumbnails.forEach((thumb) => {
+    thumb.addEventListener('click', () => {
+      const newSrc = thumb.querySelector('img').src;
+
+      mainImage.src = newSrc;
+
+      thumbnails.forEach((t) => t.classList.remove('--active'));
+
+      thumb.classList.add('--active');
+    });
+  });
+});
+
 const loadProducts = () => {
   const products = [
     {

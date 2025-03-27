@@ -43,6 +43,12 @@
         gap: 32px;
 
         .scdetail__img-list {
+          max-width: 63px;
+
+          .--active {
+            border: 2px solid var(--black-cl);
+          }
+
           .thumb {
             width: 100%;
             aspect-ratio: 76/80;
@@ -72,6 +78,8 @@
         }
 
         .scdetail__img-main {
+          min-width: 458px;
+
           width: 100%;
           aspect-ratio: 423/500;
           position: relative;
